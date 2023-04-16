@@ -1,0 +1,13 @@
+@EndUserText.label: 'UI Service Definition'
+define service ZUI_TRAVEL_SERVICE_123 {
+  expose ZC_RAP_TRAVEL_123 as Travel;
+  expose ZC_RAP_Booking_123 as Booking;
+  expose /DMO/I_Agency as Agency;
+  expose /DMO/I_Customer as Customer;
+  expose /DMO/I_Flight as Flight;
+  expose /DMO/I_Carrier as Carrier;
+  expose /DMO/I_Connection as Connection;
+  expose /DMO/I_Airport as Airport;
+  expose I_Currency as Currency;
+  expose I_Country as Country;
+}
